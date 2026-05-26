@@ -20,15 +20,6 @@ const weeks = [
 function App() {
   return (
     <main className="app">
-      <nav className="nav-weeks">
-        <ul>
-          {weeks.map((week) => (
-            <li key={week.number}>
-              <Link to={week.path}>Semana {week.number}</Link>
-            </li>
-          ))}
-        </ul>
-      </nav>
       <Routes>
         <Route
           path="/"

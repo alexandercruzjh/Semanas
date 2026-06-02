@@ -1,4 +1,6 @@
 import { Link } from 'react-router-dom'
+import pdfUrl from '../assets/pdf/Guia_Practica_Semana_5.pdf'
+import groupPdfUrl from '../assets/pdf/Semana 5 - P_grupal.pdf'
 
 function Week5() {
   return (
@@ -96,7 +98,7 @@ function Week5() {
             <p>
               <a
                 className="doc-link"
-                href="src\assets\pdf\Guia_Practica_Semana_5.pdf"
+                href={pdfUrl}
                 target="_blank"
                 rel="noreferrer"
               >
@@ -112,7 +114,7 @@ function Week5() {
             <p>
               <a
                 className="doc-link"
-                href="src\assets\pdf\Semana 5 - P_grupal.pdf"
+                href={groupPdfUrl}
                 target="_blank"
                 rel="noreferrer"
               >

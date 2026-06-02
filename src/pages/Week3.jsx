@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import pdfUrl from '../assets/pdf/Informe Bootstrap y Tailwind.pdf'
 
 function Week3() {
   return (
@@ -101,7 +102,7 @@ function Week3() {
             <p>
               <a
                 className="doc-link"
-                href="src\assets\pdf\Informe Bootstrap y Tailwind.pdf"
+                href={pdfUrl}
                 target="_blank"
                 rel="noreferrer"
               >

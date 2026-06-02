@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import pdfUrl from '../assets/pdf/Guia_Practica_Semana_4.pdf'
 
 function Week4() {
   return (
@@ -97,7 +98,7 @@ function Week4() {
             <p>
               <a
                 className="doc-link"
-                href="src\assets\pdf\Guia_Practica_Semana_4.pdf"
+                href={pdfUrl}
                 target="_blank"
                 rel="noreferrer"
               >

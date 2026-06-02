@@ -99,11 +99,11 @@ function Week2() {
             <h3 className="section-kicker">Entregable</h3>
             <p>Como evidencia de aprendizaje, se desarrollaron dos sitios web:</p>
             <div className="doc-list">
-              <a className="doc-link" href="#" target="_blank" rel="noreferrer">
+              <a className="doc-link" href="https://github.com/alexandercruzjh/challenge-amigo-secreto-js" target="_blank" rel="noreferrer">
                 Practica_individual_IA
               </a>
               <span className="muted">Ver Pagina</span>
-              <a className="doc-link" href="#" target="_blank" rel="noreferrer">
+              <a className="doc-link" href="https://github.com/alexandercruzjh/tareas-pendientes" target="_blank" rel="noreferrer">
                 Practica_2_sin_IA
               </a>
               <span className="muted">Ver Pagina</span>

@@ -95,7 +95,7 @@ function Week7() {
             <p>
               <a
                 className="doc-link"
-                href="/pdf/Informe_React_Hooks.pdf"
+                href="src\assets\pdf\S7 - Practica Cruz Cruz.pdf"
                 target="_blank"
                 rel="noreferrer"
               >

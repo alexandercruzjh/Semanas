@@ -96,7 +96,7 @@ function Week6() {
             <p>
               <a
                 className="doc-link"
-                href="/pdf/Informe_Eventos_APIs.pdf"
+                href="src\assets\pdf\Guia_Practica_Semana_6.pdf"
                 target="_blank"
                 rel="noreferrer"
               >

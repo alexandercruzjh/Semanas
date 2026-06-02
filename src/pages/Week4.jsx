@@ -97,7 +97,7 @@ function Week4() {
             <p>
               <a
                 className="doc-link"
-                href="/pdf/Informe_JavaScript_Typescript.pdf"
+                href="src\assets\pdf\Guia_Practica_Semana_4.pdf"
                 target="_blank"
                 rel="noreferrer"
               >

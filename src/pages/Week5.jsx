@@ -96,7 +96,7 @@ function Week5() {
             <p>
               <a
                 className="doc-link"
-                href="/pdf/Informe_Framework_JS.pdf"
+                href="src\assets\pdf\Guia_Practica_Semana_5.pdf"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -112,7 +112,7 @@ function Week5() {
             <p>
               <a
                 className="doc-link"
-                href="/pdf/Informe_Grupal_Semana05.pdf"
+                href="src\assets\pdf\Semana 5 - P_grupal.pdf"
                 target="_blank"
                 rel="noreferrer"
               >

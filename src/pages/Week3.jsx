@@ -101,7 +101,7 @@ function Week3() {
             <p>
               <a
                 className="doc-link"
-                href="/pdf/Informe_Bootstrap_Tailwind.pdf"
+                href="src\assets\pdf\Informe Bootstrap y Tailwind.pdf"
                 target="_blank"
                 rel="noreferrer"
               >

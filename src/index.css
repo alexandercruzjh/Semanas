@@ -152,28 +152,8 @@ a {
 }
 
 .section-title {
-	display: grid;
-	grid-template-columns: auto 1fr;
-	gap: 14px;
-	align-items: center;
+	display: block;
 	margin-bottom: 8px;
-}
-
-.section-icon {
-	width: 44px;
-	height: 44px;
-	display: grid;
-	place-items: center;
-	border-radius: 14px;
-	background: linear-gradient(140deg, rgba(148, 193, 255, 0.2), rgba(90, 130, 255, 0.08));
-	border: 1px solid rgba(148, 193, 255, 0.25);
-	color: #b8d4ff;
-	box-shadow: 0 10px 20px rgba(30, 60, 120, 0.25);
-}
-
-.section-icon svg {
-	width: 22px;
-	height: 22px;
 }
 
 .week-section h2 {
@@ -280,4 +260,92 @@ a {
 	.week-section {
 		padding: 18px 20px;
 	}
+}
+
+/* --- Dashboard Home styles --- */
+.home-container {
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 60px 24px 80px;
+}
+
+.home-header {
+	text-align: center;
+	margin-bottom: 48px;
+}
+
+.home-header h1 {
+	font-size: clamp(2rem, 4vw, 3.2rem);
+	margin: 0 0 12px;
+	background: linear-gradient(120deg, #a6c8ff, #ffffff, #ffdcb0);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-weight: 700;
+	letter-spacing: -0.02em;
+}
+
+.home-header p {
+	font-size: clamp(1rem, 1.5vw, 1.25rem);
+	color: rgba(232, 234, 237, 0.7);
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.weeks-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+	gap: 24px;
+}
+
+.week-card {
+	background: linear-gradient(135deg, rgba(32, 32, 38, 0.75), rgba(14, 18, 28, 0.75));
+	border: 1px solid rgba(255, 255, 255, 0.08);
+	border-radius: 20px;
+	padding: 24px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-height: 180px;
+	transition: transform 0.25s cubic-bezier(0.1, 0.8, 0.2, 1), border-color 0.25s ease, box-shadow 0.25s ease;
+	backdrop-filter: blur(12px);
+	box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+}
+
+.week-card:hover {
+	transform: translateY(-4px);
+	border-color: rgba(166, 200, 255, 0.35);
+	box-shadow: 0 20px 40px rgba(30, 60, 120, 0.25);
+}
+
+.week-card-number {
+	font-size: 0.75rem;
+	text-transform: uppercase;
+	letter-spacing: 0.25em;
+	color: rgba(232, 234, 237, 0.5);
+	margin-bottom: 12px;
+	display: block;
+}
+
+.week-card-title {
+	margin: 0;
+	font-size: 1.25rem;
+	font-weight: 600;
+	color: #f1f3f4;
+	line-height: 1.4;
+	flex-grow: 1;
+}
+
+.week-card-action {
+	font-size: 0.85rem;
+	color: #a6c8ff;
+	font-weight: 600;
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
+	gap: 4px;
+	transition: color 0.2s ease;
+}
+
+.week-card:hover .week-card-action {
+	color: #ffdcb0;
 }
